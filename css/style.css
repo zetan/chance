@@ -393,6 +393,7 @@ h2.m_3 {
   display: block;
   float: left;
   margin:0 0 0 1.6%;
+  padding-bottom:10px;
 }
 .col_1_of_3:hover .shop-holder{
 	border: 8px solid #004579;
@@ -1225,7 +1226,7 @@ ul.footer_social li a i:hover{
 			margin: 5px 20px 5px 20px ;
 		}
 .item_add {
-  background: url(../images/plus.png) no-repeat 10px 10px #F54D5B;
+  background: url(../images/plus.png) no-repeat 10px 10px #004579;
   text-align: center;
   font-size: 11px;
   border-top-left-radius: 50%;
