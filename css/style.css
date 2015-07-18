@@ -400,6 +400,7 @@ h2.m_3 {
 	border: 8px solid #004579;
 }
 .shop-holder{
+    margin-bottom: 10px;
 	border: 8px solid #ebebeb;
   transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;

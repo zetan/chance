@@ -7,23 +7,28 @@ function writeLogo(){
     document.write("</div>");
 }
 
-function writeNavHealth(){
-    document.write("<li class=\"active grid\"><a class=\"color1\" href=\"index.html\">Health</a>");
+function writeNavHealth(active){
+    if(active == true){
+        document.write("<li class=\"active grid\"><a class=\"color1\" href=\"index.html\">保健</a>");
+    }else{
+        document.write("<li class=\"grid\"><a class=\"color1\" href=\"index.html\">保健</a>");
+    }
+    
     document.write("<div class=\"megapanel\">");
     document.write("<div class=\"row\">");
     document.write("<div class=\"col1\">");
     document.write("<div class=\"h_nav\">");
     document.write("<ul>");
-    document.write("<li><a href=\"men.html\">蜂蜜/Honey</a></li>");
-    document.write("<li><a href=\"men.html\">鱼油/Fish Oil</a></li>");
+    document.write("<li><a href=\"men.html?cat=honey\">蜂蜜/Honey</a></li>");
+    document.write("<li><a href=\"men.html?cat=fishoil\">鱼油/Fish Oil</a></li>");
     document.write("</ul>");
     document.write("</div>");
     document.write("</div>");
     document.write("<div class=\"col1\">");
     document.write("<div class=\"h_nav\">");
     document.write("<ul>");
-    document.write("<li><a href=\"men.html\">螺旋藻/Seeweed</a></li>");
-    document.write("<li><a href=\"men.html\">Others/其他</a></li>");
+    document.write("<li><a href=\"men.html?cat=seeweed\">螺旋藻/Seeweed</a></li>");
+    document.write("<li><a href=\"men.html?cat=health_others\">Others/其他</a></li>");
     document.write("</ul>");
     document.write("</div>");
     document.write("</div>");
@@ -37,23 +42,28 @@ function writeNavHealth(){
     document.write("</li>");
 }
 
-function writeNavMaternal(){
-    document.write("<li class=\"active grid\"><a class=\"color1\" href=\"index.html\">Maternal&Child</a>");
+function writeNavMaternal(active){
+    if(active == true){
+         document.write("<li class=\"active grid\"><a class=\"color1\" href=\"index.html\">母婴</a>");
+    }else{
+         document.write("<li class=\"grid\"><a class=\"color1\" href=\"index.html\">母婴</a>");
+    }
+   
     document.write("<div class=\"megapanel\">");
     document.write("<div class=\"row\">");
     document.write("<div class=\"col1\">");
     document.write("<div class=\"h_nav\">");
     document.write("<ul>");
-    document.write("<li><a href=\"men.html\">花王尿布/Diper</a></li>");
-    document.write("<li><a href=\"men.html\">大王尿布/Diper</a></li>");
+    document.write("<li><a href=\"men.html?kao_diper\">花王尿布/Diper</a></li>");
+    document.write("<li><a href=\"men.html?goon_diper\">大王尿布/Diper</a></li>");
     document.write("</ul>");
     document.write("</div>");
     document.write("</div>");
     document.write("<div class=\"col1\">");
     document.write("<div class=\"h_nav\">");
     document.write("<ul>");
-    document.write("<li><a href=\"men.html\">英国奶粉/Formula</a></li>");
-    document.write("<li><a href=\"men.html\">澳洲奶粉/Formula</a></li>");
+    document.write("<li><a href=\"men.html?british_formula\">英国奶粉/Formula</a></li>");
+    document.write("<li><a href=\"men.html?Australia_formula\">澳洲奶粉/Formula</a></li>");
     document.write("</ul>");
     document.write("</div>");
     document.write("</div>");
@@ -67,25 +77,29 @@ function writeNavMaternal(){
     document.write("</li>");
 }
 
-function writeNavElectornics(){
-    document.write("<li class=\"active grid\"><a class=\"color1\" href=\"index.html\">Electornics</a>");
+function writeNavElectornics(active){
+    if(active == true){
+        document.write("<li class=\"active grid\"><a class=\"color1\" href=\"index.html\">电子</a>");
+    }else{
+        document.write("<li class=\"grid\"><a class=\"color1\" href=\"index.html\">电子</a>");
+    }
     document.write("<div class=\"megapanel\">");
     document.write("<div class=\"row\">");
     document.write("<div class=\"col1\">");
     document.write("<div class=\"h_nav\">");
     document.write("<ul>");
-    document.write("<li><a href=\"men.html\">Ipad Air</a></li>");
-    document.write("<li><a href=\"men.html\">Iphone 6/6 Plus</a></li>");
-    document.write("<li><a href=\"men.html\">Iphone 5/5s</a></li>");
-    document.write("<li><a href=\"men.html\">Apple Watch</a></li>");
+    document.write("<li><a href=\"men.html?cat=ipad_air\">Ipad Air</a></li>");
+    document.write("<li><a href=\"men.html?cat=iphone6\">Iphone 6/6 Plus</a></li>");
+    document.write("<li><a href=\"men.html?cat=iphone5\">Iphone 5/5s</a></li>");
+    document.write("<li><a href=\"men.html?cat=apple_watch\">Apple Watch</a></li>");
     document.write("</ul>");
     document.write("</div>");
     document.write("</div>");
     document.write("<div class=\"col1\">");
     document.write("<div class=\"h_nav\">");
     document.write("<ul>");
-    document.write("<li><a href=\"men.html\"Kindle</a></li>");
-    document.write("<li><a href=\"men.html\">Kindle Paper White</a></li>");
+    document.write("<li><a href=\"men.html?cat=kindle\"Kindle</a></li>");
+    document.write("<li><a href=\"men.html?cat=kindle_paperwhite\">Kindle Paper White</a></li>");
     document.write("</ul>");
     document.write("</div>");
     document.write("</div>");
@@ -93,7 +107,7 @@ function writeNavElectornics(){
     document.write("<div class=\"h_nav\">");
     document.write("<h4>畅销产品</h4>");
     document.write("<ul>");
-    document.write("<li><a href=\"men.html\"三星Galaxy/Samsung Galaxy</a></li>");
+    document.write("<li><a href=\"men.html?cat=samsumg\"三星Galaxy/Samsung Galaxy</a></li>");
     document.write("</ul>");
     document.write("</div>");
     document.write("</div>");
@@ -102,10 +116,20 @@ function writeNavElectornics(){
     document.write("</li>");
 }
 
-function writeNavAbout(){
-    document.write("<li class=\"active grid\"><a class=\"color4\" href=\"about.html\">Company</a></li>");
+function writeNavAbout(active){
+    if(active == true){
+        document.write("<li class=\"active grid\"><a class=\"color4\" href=\"about.html\">关于我们</a></li>");
+    }else{
+        document.write("<li class=\"grid\"><a class=\"color4\" href=\"about.html\">关于我们</a></li>");
+    }
+    
 }
 
-function writeNavContact(){
-    document.write("<li class=\"active grid\"><a class=\"color6\" href=\"contact.html\">Contact Us</a></li>");
+function writeNavContact(active){
+    if(active == true){
+         document.write("<li class=\"active grid\"><a class=\"color6\" href=\"contact.html\">联系我们</a></li>");
+    } else{
+         document.write("<li class=\"grid\"><a class=\"color6\" href=\"contact.html\">联系我们</a></li>");
+    }
+   
 }
