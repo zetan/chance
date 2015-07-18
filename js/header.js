@@ -52,8 +52,8 @@ function writeNavMaternal(){
     document.write("<div class=\"col1\">");
     document.write("<div class=\"h_nav\">");
     document.write("<ul>");
-    document.write("<li><a href=\"men.html\">英国奶粉/Fomular</a></li>");
-    document.write("<li><a href=\"men.html\">澳洲奶粉/Fomular</a></li>");
+    document.write("<li><a href=\"men.html\">英国奶粉/Formula</a></li>");
+    document.write("<li><a href=\"men.html\">澳洲奶粉/Formula</a></li>");
     document.write("</ul>");
     document.write("</div>");
     document.write("</div>");
@@ -107,5 +107,5 @@ function writeNavAbout(){
 }
 
 function writeNavContact(){
-    document.write("<li class=\"active grid\"><a class=\"color6\" href=\"contact.html\">Contact</a></li>");
+    document.write("<li class=\"active grid\"><a class=\"color6\" href=\"contact.html\">Contact Us</a></li>");
 }
