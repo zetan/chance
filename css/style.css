@@ -1867,6 +1867,8 @@ a.b-home:hover{
 }
 /*--contact--*/
 .map {
+    padding-left:2em;
+    padding-right:2em;
   margin-bottom: 5em;
 }
 .map iframe {
