@@ -1666,19 +1666,19 @@ ul.single_social li a:hover {
 	list-style: none;
 }
 ul.menu_drop li.item1{
-	background:#FDA5AA;
+    background:#ACD6FF;
 }
 ul.menu_drop li.item1 img, ul.menu_drop li.item2 img, ul.menu_drop li.item3 img, ul.menu_drop li.item4 img, ul.menu_drop li.item5 img{
 	margin: -3px 10px 0 0;
 }
 ul.menu_drop li.item2{
-	background:#FC9096;
+	background:#84C1FF;
 }
 ul.menu_drop li.item3{
-	background:#FD7179;
+    background:#0072E3;
 }
 ul.menu_drop li.item4{
-	background:#FA5C65;
+	background:#005AB5;
 }
 ul.menu_drop li.item5{
 	background:#004579;

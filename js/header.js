@@ -118,9 +118,9 @@ function writeNavElectornics(active){
 
 function writeNavAbout(active){
     if(active == true){
-        document.write("<li class=\"active grid\"><a class=\"color4\" href=\"about.html\">关于我们</a></li>");
+        document.write("<li class=\"active grid\"><a class=\"color4\" href=\"about.html\">公司概述</a></li>");
     }else{
-        document.write("<li class=\"grid\"><a class=\"color4\" href=\"about.html\">关于我们</a></li>");
+        document.write("<li class=\"grid\"><a class=\"color4\" href=\"about.html\">公司概述</a></li>");
     }
     
 }
